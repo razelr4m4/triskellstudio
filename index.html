@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Triskell Studio Tools</title>
+  <meta name="description" content="Triskell Studio Tools — Monitor, clean, secure and troubleshoot your Mac — fast, transparent, local-first." />
+
+  <meta property="og:title" content="Triskell Studio Tools" />
+  <meta property="og:description" content="Monitor, clean, secure and troubleshoot your Mac — fast, transparent, local-first." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/img/AppIcon_1024.png" />
+
+  <link rel="icon" href="./assets/img/AppIcon_1024.png" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="./index.html" aria-label="Triskell Studio Tools home">
+        <span class="brand__icon">
+          <img src="./assets/img/AppIcon_1024.png" alt="" />
+        </span>
+        <span class="brand__text">
+          <span class="brand__name">Triskell Studio Tools</span>
+          <span class="brand__tag">macOS • Local-first • No tracking</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav__link" href="#features">Features</a>
+        <a class="nav__link" href="#privacy">Privacy</a>
+        <a class="nav__link" href="buy/buy.html">Buy</a>
+      </nav>
+
+      <div class="topbar__cta">
+        <a class="btn btn--ghost" href="https://github.com/razelr4m4/triskellstudio" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn btn--primary" href="buy/buy.html">Get Pro</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__left">
+
+          <h1 class="h1">
+            Monitor, clean, secure and troubleshoot your Mac —
+            <span class="grad">without the bloat.</span>
+          </h1>
+
+          <div class="pill pill--sig">🌀 macOS-native • Clear reports • Explicit actions</div>
+
+          <p class="sub">
+                Triskell Studio Tools combines <b>Dashboard</b>, <b>Analysis</b>, <b>Cleanup</b>, <b>Security</b> and <b>Utilities</b>
+                into one focused macOS app — with clear reports and explicit actions.
+          </p>
+
+          <div class="hero__badges">
+            <div class="mini">
+              <div class="mini__k">No tracking</div>
+              <div class="mini__p">No analytics, no telemetry.</div>
+            </div>
+            <div class="mini">
+              <div class="mini__k">Local-first</div>
+              <div class="mini__p">Runs on your Mac, logs included.</div>
+            </div>
+            <div class="mini">
+              <div class="mini__k">Clear actions</div>
+              <div class="mini__p">Always explicit, always confirm.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__right" aria-label="App preview">
+        <div class="shot">
+            <button class="shotZoom" id="heroShot" type="button"
+                    data-full="./assets/img/screenshot-dashboard.png"
+                    aria-label="Open Dashboard screenshot">
+            <img id="heroShotImg" src="./assets/img/screenshot-dashboard.png" alt="Dashboard screenshot" />
+            </button>
+
+            <!-- Mini gallery (inside the card) -->
+            <div class="heroThumbs" aria-label="More screenshots">
+            <button class="shotZoom thumbZoom" type="button" data-full="./assets/img/screenshot-dashboard.png" aria-label="Open Dashboard screenshot">
+                <img src="./assets/img/screenshot-dashboard.png" alt="Dashboard thumbnail">
+            </button>
+
+            <button class="shotZoom thumbZoom" type="button" data-full="./assets/img/screenshot-analysis.png" aria-label="Open Analysis screenshot">
+                <img src="./assets/img/screenshot-analysis.png" alt="Analysis thumbnail">
+            </button>
+
+            <button class="shotZoom thumbZoom" type="button" data-full="./assets/img/screenshot-cleanup.png" aria-label="Open Cleanup screenshot">
+                <img src="./assets/img/screenshot-cleanup.png" alt="Cleanup thumbnail">
+            </button>
+
+            <button class="shotZoom thumbZoom" type="button" data-full="./assets/img/screenshot-security.png" aria-label="Open Security screenshot">
+                <img src="./assets/img/screenshot-security.png" alt="Security thumbnail">
+            </button>
+
+            <button class="shotZoom thumbZoom" type="button" data-full="./assets/img/screenshot-utilities.png" aria-label="Open Utilities screenshot">
+                <img src="./assets/img/screenshot-utilities.png" alt="Utilities thumbnail">
+            </button>
+            </div>
+
+            <div class="shot__glow" aria-hidden="true"></div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Everything you need in one app...</h2>
+          <p class="lead">Five tabs, one mission: make your Mac feel clean, safe and under control.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">📊</div>
+            <h3 class="card__title">Dashboard</h3>
+            <p class="card__p">Live monitoring for key metrics (CPU, memory, disk, network) with a clean UI.</p>
+            <ul class="card__list">
+              <li>Fast overview</li>
+              <li>Health indicators</li>
+              <li>Local-only</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🔎</div>
+            <h3 class="card__title">Analysis</h3>
+            <p class="card__p">Quick diagnostics and reports to understand your system state in seconds.</p>
+            <ul class="card__list">
+              <li>Readable reports</li>
+              <li>Actionable results</li>
+              <li>Export-friendly logs</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🧹</div>
+            <h3 class="card__title">Cleanup</h3>
+            <p class="card__p">Smart cleaning actions with clear confirmation, simulation mode and logs.</p>
+            <ul class="card__list">
+              <li>Simulation mode</li>
+              <li>Real cleanup (Pro)</li>
+              <li>Transparent reporting</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🛡️</div>
+            <h3 class="card__title">Security</h3>
+            <p class="card__p">Security checks + guided actions (Firewall, stealth mode, PF status).</p>
+            <ul class="card__list">
+              <li>Status visibility</li>
+              <li>Guided configuration</li>
+              <li>Confirm before changes</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🧰</div>
+            <h3 class="card__title">Utilities</h3>
+            <p class="card__p">Practical tools like DNS flush, DHCP renew and Network Reset Pro.</p>
+            <ul class="card__list">
+              <li>One-click tools</li>
+              <li>Logs saved automatically</li>
+              <li>Useful for troubleshooting</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="ctaStrip">
+          <div class="ctaStrip__text">
+            <div class="ctaStrip__k">Ready to unlock Pro?</div>
+            <div class="ctaStrip__p">Single annual plan. Trial mode available with limited features.</div>
+          </div>
+          <a class="btn btn--primary" href="buy/buy.html">Get Pro</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVACY -->
+    <section id="privacy" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Privacy</h2>
+          <p class="lead"><b>No user data collection.</b> No analytics. No tracking.</p>
+        </div>
+
+        <div class="pair">
+          <div class="panel">
+            <h3 class="panel__title">Local-first by design</h3>
+            <p class="panel__p">The app runs on your Mac. Reports and logs are generated locally.</p>
+            <ul class="panel__list">
+              <li>No telemetry</li>
+              <li>No hidden background services</li>
+              <li>Clear actions & confirmations</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3 class="panel__title">Contact</h3>
+            <p class="panel__p">Support direct.</p>
+            <ul class="panel__list">
+              <li>Email: <a class="link" href="mailto:contact@triskellstudio.com">contact@triskellstudio.com</a></li>
+              <li>Website: <b>triskellstudio.com</b></li>
+              <li>LinkedIn: <a class="link" href="https://www.linkedin.com/in/jean-christophe-c-79290b60/" target="_blank" rel="noreferrer">Jean-Christophe</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <div>© <span id="y"></span> Triskell Studio</div>
+        <div class="footer__muted">Made for macOS • Transparent tools • Minimal friction</div>
+        <div class="footer__links">
+          <a class="link" href="buy/buy.html">Buy</a>
+          <a class="link" href="https://github.com/razelr4m4/triskellstudio" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Lightbox (Gallery) -->
+  <div class="lb" id="lb" aria-hidden="true">
+    <div class="lb__backdrop" data-close></div>
+
+    <figure class="lb__panel" role="dialog" aria-modal="true" aria-label="Screenshots gallery">
+      <button class="lb__close" type="button" data-close aria-label="Close">✕</button>
+
+      <!-- Nav -->
+      <button class="lb__nav lb__prev" type="button" data-prev aria-label="Previous screenshot">‹</button>
+      <button class="lb__nav lb__next" type="button" data-next aria-label="Next screenshot">›</button>
+
+      <div class="lb__meta" aria-live="polite">
+        <span id="lbCount">1 / 5</span>
+      </div>
+
+      <img class="lb__img" id="lbImg" alt="">
+    </figure>
+  </div>
+
+<script>
+  (function(){
+    const lb = document.getElementById('lb');
+    const lbImg = document.getElementById('lbImg');
+    const lbCount = document.getElementById('lbCount');
+    if (!lb || !lbImg) return;
+
+    // ✅ Liste unique des screenshots (V1)
+    const shots = [
+      { src: "./assets/img/screenshot-dashboard.png",  alt: "Dashboard screenshot" },
+      { src: "./assets/img/screenshot-analysis.png",   alt: "Analysis screenshot" },
+      { src: "./assets/img/screenshot-cleanup.png",    alt: "Cleanup screenshot" },
+      { src: "./assets/img/screenshot-security.png",   alt: "Security screenshot" },
+      { src: "./assets/img/screenshot-utilities.png",  alt: "Utilities screenshot" }
+    ];
+
+    let idx = 0;
+
+    function render(){
+      const s = shots[idx];
+      lbImg.src = s.src;
+      lbImg.alt = s.alt;
+      if (lbCount) lbCount.textContent = (idx + 1) + " / " + shots.length;
+    }
+
+    function openLB(startSrc){
+      // Si on a cliqué une image précise, on démarre dessus
+      const found = shots.findIndex(x => x.src === startSrc);
+      idx = found >= 0 ? found : 0;
+
+      render();
+      lb.classList.add('isOpen');
+      lb.setAttribute('aria-hidden','false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLB(){
+      lb.classList.remove('isOpen');
+      lb.setAttribute('aria-hidden','true');
+      lbImg.src = '';
+      document.body.style.overflow = '';
+    }
+
+    function next(){
+      idx = (idx + 1) % shots.length;
+      render();
+    }
+
+    function prev(){
+      idx = (idx - 1 + shots.length) % shots.length;
+      render();
+    }
+
+    // ✅ Click sur l'image du hero (ou toute .shotZoom)
+    document.querySelectorAll('.shotZoom').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const startSrc = btn.getAttribute('data-full') || shots[0].src;
+        openLB(startSrc);
+      });
+    });
+
+    // ✅ Backdrop + close
+    lb.addEventListener('click', (e) => {
+      if (e.target && e.target.hasAttribute('data-close')) closeLB();
+    });
+    lb.querySelectorAll('[data-close]').forEach(el => el.addEventListener('click', closeLB));
+
+    // ✅ Boutons prev/next
+    const prevBtn = lb.querySelector('[data-prev]');
+    const nextBtn = lb.querySelector('[data-next]');
+    if (prevBtn) prevBtn.addEventListener('click', prev);
+    if (nextBtn) nextBtn.addEventListener('click', next);
+
+    // ✅ Clavier
+    document.addEventListener('keydown', (e) => {
+      if (!lb.classList.contains('isOpen')) return;
+
+      if (e.key === 'Escape') return closeLB();
+      if (e.key === 'ArrowRight') return next();
+      if (e.key === 'ArrowLeft') return prev();
+    });
+  })();
+</script>
+
+  <!-- main.js UNE SEULE FOIS, tout à la fin -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Triskell Studio Tools</title>
+  <meta name="description" content="Triskell Studio Tools — Optimize, clean, secure and troubleshoot your Mac — fast, transparent, local-first." />
+
+  <meta property="og:title" content="Triskell Studio Tools" />
+  <meta property="og:description" content="Optimize, clean, secure and troubleshoot your Mac — fast, transparent, local-first." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/hero-app.png" />
+
+  <link rel="icon" href="assets/img/hero-app.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<script src="assets/js/main.js"></script>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="./" aria-label="Triskell Studio Tools home">
+        <span class="brand__icon">
+          <img src="assets/img/hero-app.png" alt="" />
+        </span>
+        <span class="brand__text">
+          <span class="brand__name">Triskell Studio Tools</span>
+          <span class="brand__tag">macOS • Local-first • No tracking</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a class="nav__link" href="#features">Features</a>
+        <a class="nav__link" href="#screens">Screens</a>
+        <a class="nav__link" href="#privacy">Privacy</a>
+        <a class="nav__link" href="buy/">Buy</a>
+      </nav>
+
+      <div class="topbar__cta">
+        <a class="btn btn--ghost" href="https://github.com/razelr4m4/triskellstudio" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn btn--primary" href="buy/">Get Pro</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__left">
+          <div class="pill">🌀 Built for <b>macOS</b> — fast, transparent, local-first</div>
+
+          <h1 class="h1">
+            Optimize, clean, secure and troubleshoot your Mac —
+            <span class="grad">without the bloat.</span>
+          </h1>
+
+          <p class="sub">
+            Triskell Studio Tools brings together <b>Dashboard</b>, <b>Analysis</b>, <b>Cleanup</b>, <b>Security</b> and <b>Utilities</b>
+            in a focused, no-nonsense app. Reports are clear. Actions are explicit. Nothing is hidden.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="buy/" aria-label="Get Pro annual">👑 Get Pro (Annual)</a>
+            <a class="btn btn--ghost" href="#screens">See screenshots</a>
+          </div>
+
+          <div class="hero__badges">
+            <div class="mini">
+              <div class="mini__k">No tracking</div>
+              <div class="mini__p">No analytics, no telemetry.</div>
+            </div>
+            <div class="mini">
+              <div class="mini__k">Local-first</div>
+              <div class="mini__p">Runs on your Mac, logs included.</div>
+            </div>
+            <div class="mini">
+              <div class="mini__k">Clear actions</div>
+              <div class="mini__p">Always explicit, always confirm.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__right" aria-label="App preview">
+          <div class="shot">
+            <img src="assets/img/hero-app.png" alt="Triskell Studio Tools app preview" />
+          </div>
+
+          <div class="shot__glow" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Everything you need in V1</h2>
+          <p class="lead">Five tabs, one mission: make your Mac feel clean, safe and under control.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">📊</div>
+            <h3 class="card__title">Dashboard</h3>
+            <p class="card__p">Live monitoring for key metrics (CPU, memory, disk, network) with a clean UI.</p>
+            <ul class="card__list">
+              <li>Fast overview</li>
+              <li>Health indicators</li>
+              <li>Local-only</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🔎</div>
+            <h3 class="card__title">Analysis</h3>
+            <p class="card__p">Quick diagnostics and reports to understand your system state in seconds.</p>
+            <ul class="card__list">
+              <li>Readable reports</li>
+              <li>Actionable results</li>
+              <li>Export-friendly logs</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🧹</div>
+            <h3 class="card__title">Cleanup</h3>
+            <p class="card__p">Smart cleaning actions with clear confirmation, simulation mode and logs.</p>
+            <ul class="card__list">
+              <li>Simulation mode</li>
+              <li>Real cleanup (Pro)</li>
+              <li>Transparent reporting</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🛡️</div>
+            <h3 class="card__title">Security</h3>
+            <p class="card__p">Security checks + guided actions (Firewall, stealth mode, PF status).</p>
+            <ul class="card__list">
+              <li>Status visibility</li>
+              <li>Guided configuration</li>
+              <li>Confirm before changes</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🧰</div>
+            <h3 class="card__title">Utilities</h3>
+            <p class="card__p">Practical tools like DNS flush, DHCP renew and Network Reset Pro.</p>
+            <ul class="card__list">
+              <li>One-click tools</li>
+              <li>Logs saved automatically</li>
+              <li>Useful for troubleshooting</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="ctaStrip">
+          <div class="ctaStrip__text">
+            <div class="ctaStrip__k">Ready to unlock Pro?</div>
+            <div class="ctaStrip__p">Single annual plan. Trial mode available with limited features.</div>
+          </div>
+          <a class="btn btn--primary" href="buy/">Get Pro</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section id="screens" class="section section--alt">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Inside the app</h2>
+          <p class="lead">A quick look at the tabs included in V1.</p>
+        </div>
+
+        <div class="shots">
+          <figure class="shotCard">
+            <img src="assets/img/screenshot-dashboard.png" alt="Dashboard screenshot" />
+            <figcaption>Dashboard</figcaption>
+          </figure>
+
+          <figure class="shotCard">
+            <img src="assets/img/screenshot-analysis.png" alt="Analysis screenshot" />
+            <figcaption>Analysis</figcaption>
+          </figure>
+
+          <figure class="shotCard">
+            <img src="assets/img/screenshot-cleanup.png" alt="Cleanup screenshot" />
+            <figcaption>Cleanup</figcaption>
+          </figure>
+
+          <figure class="shotCard">
+            <img src="assets/img/screenshot-security.png" alt="Security screenshot" />
+            <figcaption>Security</figcaption>
+          </figure>
+
+          <figure class="shotCard">
+            <img src="assets/img/screenshot-utilities.png" alt="Utilities screenshot" />
+            <figcaption>Utilities</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVACY -->
+    <section id="privacy" class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Privacy</h2>
+          <p class="lead"><b>No user data collection.</b> No analytics. No tracking.</p>
+        </div>
+
+        <div class="pair">
+          <div class="panel">
+            <h3 class="panel__title">Local-first by design</h3>
+            <p class="panel__p">The app runs on your Mac. Reports and logs are generated locally.</p>
+            <ul class="panel__list">
+              <li>No telemetry</li>
+              <li>No hidden background services</li>
+              <li>Clear actions & confirmations</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3 class="panel__title">Contact</h3>
+            <p class="panel__p">Support direct.</p>
+            <ul class="panel__list">
+              <li>Email: <a class="link" href="mailto:contact@triskellstudio.com">contact@triskellstudio.com</a></li>
+              <li>Website: <b>triskellstudio.com</b></li>
+              <li>LinkedIn: <a class="link" href="https://www.linkedin.com/in/jean-christophe-c-79290b60/" target="_blank" rel="noreferrer">Jean-Christophe</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <div>© <span id="y"></span> Triskell Studio</div>
+        <div class="footer__muted">Made for macOS • Transparent tools • Minimal friction</div>
+        <div class="footer__links">
+          <a class="link" href="buy/">Buy</a>
+          <a class="link" href="https://github.com/razelr4m4/triskellstudio" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
