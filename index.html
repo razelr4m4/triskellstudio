@@ -21,6 +21,13 @@
     gtag('js', new Date());
     gtag('config', 'G-QHMRBSV68H');
   </script>
+  <script>
+  function track(eventName, params = {}) {
+    if (typeof gtag === "function") {
+      gtag('event', eventName, params);
+    }
+  }
+</script>
 </head>
 
 <body>
@@ -44,7 +51,11 @@
 
       <div class="topbar__cta">
         <a class="btn btn--ghost" href="https://github.com/razelr4m4/triskellstudio" target="_blank" rel="noreferrer">GitHub</a>
-        <a class="btn btn--primary" href="buy/buy.html">Get Pro</a>
+        <a class="btn btn--primary"
+           href="buy/buy.html"
+           onclick="track('click_get_pro', {location:'topbar'})">
+          Get Pro
+        </a>
       </div>
     </div>
   </header>
@@ -190,7 +201,11 @@
             <div class="ctaStrip__k">Ready to unlock Pro?</div>
             <div class="ctaStrip__p">Single annual plan. Trial mode available with limited features.</div>
           </div>
-          <a class="btn btn--primary" href="buy/buy.html">Get Pro</a>
+          <a class="btn btn--primary"
+             href="buy/buy.html"
+             onclick="track('click_get_pro', {location:'features_cta'})">
+             Get Pro
+          </a>
         </div>
       </div>
     </section>
